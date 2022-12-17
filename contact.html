@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+ font-family: "Lato", sans-serif;
+ background-image: url('https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149006548.jpg?w=360');
+ background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+#logo {
+  display:absolute;
+  top:5px;
+  float:right;
+  right:25px;
+  height: 110px;
+  width: auto; 
+  border-radius: 50%; 
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(119, 25, 77, 0.795);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f5f4f0;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #12c020c7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.image .homepic {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+  .image{
+    max-width:800px;
+  
+  
+  }
+  .hello {
+    text-align:center ;
+    TOP:30%;
+    FLOAT:left;
+    LEFT:75PX;
+    MAX-width: 100%;
+    
+     ;
+  }
+
+
+  
+   .image .homepic{
+    height:350px ;
+    width: 80%;
+    max-width:500px;
+  }
+  @media only screen and (max-width: 620px){
+    .image{
+    max-width:800px;
+    }
+  image .homepic{
+    width: 100%;
+  max-width: 400px;
+  height: auto;
+    height:60px ;
+    width: 50%;
+    max-width:100px;
+    FLOAT:RIGHT;
+    RIGHT:10PX;
+  }
+ 
+     
+  }
+  .information .container-fluid .row div:first-child {
+  	background-color: var(--primary);
+}
+
+.information .container-fluid .row div:last-child {
+  	background-color: white;
+}
+
+.information .container-fluid .row div:nth-child(2) {
+  	background-color: var(--primary-light);}
+
+    .form-control-input,
+.form-control-textarea {
+	width: 100%;
+	appearance: none;
+	border-radius: 4px;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	padding-left: 1.5rem;
+	padding-top: 0.775rem;
+	padding-bottom: 0.775rem;
+}
+
+.myBtn {
+	z-index: 99;
+	right: 20px;
+	width: 30px;
+	height: 52px;
+	bottom: 20px;
+	border: darkgreen;
+	outline: palevioletred;
+	display: inline-flex;	border-radius: 50%;
+}
+
+.myBtn:hover {
+  	background-color: #0f0f11;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <h2>MARIA</h2>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.HTML">Home</a>
+  <a href="about.html">About</a>
+  <a href="works.html">Works</a>
+  <a href="contact.html">Contact</a>
+</div>
+<h2>My Portfolio</h2>
+<a href="#"><img id="logo" src="IMG/logo.png"></a>
+<span style="font-size:'30px';cursor:pointer" onclick="openNav()">&#9776;
+  
+    <div class="body-container">
+        <div class="leftbar">
+            <center>
+              <div class="image">
+                  
+                <img src="IMG/contact.png" class="homepic">
+            </div>
+                        <div class="container" >
+                          <div class="row d-flex align-items-center">
+                              <div class="col-lg-7" data-aos="fade-right">
+                                  <p>Contact</p>
+                                  <h1>Get in Touch</h1>
+                                      <section class="contact d-flex align-items-center py-5" id="contact">
+                                        <div class="container-fluid text-light">
+                                            <div class="row">
+                                                <div class="col-lg-6 d-flex justify-content-center justify-content-lg-end align-items-center px-lg-5" data-aos="fade-right">
+                                                    <div style="width:90%">
+                                                        <div class="text-center text-lg-start py-4 pt-lg-0">
+                                                        
+                                                            <h2 class="py-2">Send your query</h2>
+                                                            <div class="contact">
+                
+                                                              <img class="photo" src="img/facebook.png"   >  <a href="https://www.facebook.com/emmawatson/" >Facebook</a> <br>
+                                                              <img class="photo" src="img/gmail.png"   > <a href="https://www.emailsherlock.com/emailsearch/emma.watson@gmail.com/" >emma.watson@gmail.com</a> <br>
+                                                              <img class="photo" src="img/insta.png"   >  <a href="https://www.instagram.com/emmawatson/?hl=en" >@emmawatson</a> <br>
+                                                              <img class="photo" src="img/telephone.jpg"   > <a> (212)456-7890</a> <br>
+                                                          </div>
+
+                                                        </div>
+                                                        <div>
+                                                            <div class="row" >
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group py-2">
+                                                                        <input type="text" class="form-control form-control-input" id="exampleFormControlInput1" placeholder="Enter name">
+                                                                    </div>                                
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="form-group py-2">
+                                                                        <input type="email" class="form-control form-control-input" id="exampleFormControlInput2" placeholder="Enter phone number">
+                                                                    </div>                                 
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group py-1">
+                                                                <input type="email" class="form-control form-control-input" id="exampleFormControlInput3" placeholder="Enter email">
+                                                            </div>  
+                                                            <div class="form-group py-2">
+                                                                <textarea class="form-control form-control-input" id="exampleFormControlTextarea1" rows="6" placeholder="Message"></textarea>
+                                                            </div>                            
+                                                        </div>
+                                                        <div class="myBtn">
+                                                            <button><button type="submit"></button>submit</button>
+                                                        </div>
+                                                    </div> 
+                                                </div> 
+                                                 
+</div></div></div></div>
+                                            
+
+                                    
+                                  </div>
+                              </div>
+                             
+</html> 
+</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
